@@ -2,13 +2,12 @@
 using namespace std;
 
 int main(){
-  string name1, name2, name3;
-  cout << "Enter three names: " << endl;
-  cin >> name1;
-  cin.ignore(256, ' ');
-  cin >> name2;
-  cin.ignore(256, ' ');
-  cin >> name3;
-  cin.ignore(256, ' ');
+  char array[3][20];
+  cout << "Enter a name: " << endl;
+  cin >> array[0];
+  cout << "Enter a second name: " << endl;
+  cin >> array[1];
+  cout << "Enter a third name: " << endl;
+  cin >> array[2];
   return 0;
 }
